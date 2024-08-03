@@ -1,0 +1,64 @@
+/* styles/About.module.css */
+.background {
+    background-image: url('/b1.svg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 20vh;
+  }
+
+  @media (min-width: 576px) {
+    .background {
+      height: 30vh; /* Example: different height for larger screens */
+    }
+  }
+
+  @media (min-width: 768px) {
+    .background {
+      height: 84.5vh; /* Example: different height for larger screens */
+    }
+  }
+
+
+
+.globeBackground {
+    background-image: url('/globe.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 20vh;
+  }
+
+  @media (min-width: 576px) {
+    .globeBackground {
+      height: 30vh; /* Example: different height for larger screens */
+    }
+  }
+
+  @media (min-width: 768px) {
+    .globeBackground {
+      height: 40vh; /* Example: different height for larger screens */
+    }
+  }
+
+
+
+  .techBackground {
+    background-image: url('/techStack.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 20vh;
+  }
+
+  @media (min-width: 576px) {
+    .techBackground {
+      height: 30vh; /* Example: different height for larger screens */
+    }
+  }
+
+  @media (min-width: 768px) {
+    .techBackground {
+      height: 40vh; /* Example: different height for larger screens */
+    }
+  }
