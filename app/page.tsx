@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Approach from "@/components/Approach";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import NavBar from "@/components/NavBar";
 import Project from "@/components/Project";
@@ -14,6 +15,7 @@ export default function Home() {
       <Project />
       <Approach />
       <Contact />
+      <Footer />
     </main>
   );
 }
